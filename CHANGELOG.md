@@ -1,5 +1,17 @@
 # @marktripoli/skills
 
+## 4.2.0
+
+### Minor Changes
+
+- [#133](https://github.com/MarkTripoli/skills/pull/133) [`2aaba36`](https://github.com/MarkTripoli/skills/commit/2aaba36cdaced09a90413907af0c5b8eef67d713) Thanks [@Triippz](https://github.com/Triippz)! - Extend opt-in `/security-check` reports with redacted, revision-bound Gitleaks findings and explicit incomplete secret coverage when Gitleaks is unavailable or fails.
+
+- [#129](https://github.com/MarkTripoli/skills/pull/129) [`3ca783a`](https://github.com/MarkTripoli/skills/commit/3ca783a4b9b13ecd7654fb780e8a1542bce89480) Thanks [@Triippz](https://github.com/Triippz)! - Add an opt-in `/security-check` skill with a Semgrep adapter that emits revision-bound normalized findings and marks unavailable or failed scans incomplete.
+
+### Patch Changes
+
+- [#135](https://github.com/MarkTripoli/skills/pull/135) [`2a7aa49`](https://github.com/MarkTripoli/skills/commit/2a7aa493324f3b49330439cf89d3f7d908a5dc8e) Thanks [@Triippz](https://github.com/Triippz)! - Gate ready PR publication on current indexed evidence, review, hosted capture, comment, and body proof.
+
 ## 4.1.1
 
 ### Patch Changes
